@@ -39,7 +39,7 @@
 ## 📜 Sumário
 - [Visão Geral](#-visão-geral)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Endpoints e Documentação](#-endpoints-e-documentação)
+- [Endpoints](#-endpoints)
 - [Status Codes HTTP](#-status-codes-http)
 - [Instalação e Execução](#-instalação-e-execução)
 - [Contribuindo](#-contribuindo)
@@ -75,7 +75,7 @@ Cada campeão possui:
 
 ---
 
-## 🏷 Endpoints e Documentação
+## 🏷 Endpoints
 A API possui as seguintes rotas para gerenciar campeões do TFT:
 
 | Método | Rota             | Descrição                      |
@@ -190,14 +190,7 @@ curl -X DELETE http://localhost:8080/campeoes/1
 ```
 --- 
 
-## 📖 Swagger UI
-📌 A documentação interativa da API pode ser acessada no navegador:  
-🔗 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
-<details>
-  <summary><b>Captura de tela Swagger UI</b></summary>
-  <img src="https://github.com/wanessabrito/api-tft/blob/main/api-tft/src/main/img/Swagger.png" alt="Swagger UI" width="100%">
-</details>
 
 ---
 
@@ -240,6 +233,14 @@ mvn spring-boot:run
 - **JDBC URL:** `jdbc:h2:mem:campeoesdb`  
 - **Usuário:** `sa`  
 - **Senha:** (em branco)
+
+## 📖 Acessar Swagger UI
+📌 A documentação interativa da API pode ser acessada no navegador:  
+🔗 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+<details>
+  <summary><b>Captura de tela Swagger UI</b></summary>
+  <img src="https://github.com/wanessabrito/api-tft/blob/main/api-tft/src/main/img/Swagger.png" alt="Swagger UI" width="100%">
+</details>
 
 ---
 
