@@ -188,6 +188,8 @@ curl -X PUT "http://localhost:8080/campeoes/1" \
 ```bash
 curl -X DELETE http://localhost:8080/campeoes/1
 ```
+--- 
+
 ## 📖 Swagger UI
 📌 A documentação interativa da API pode ser acessada no navegador:  
 🔗 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
@@ -196,6 +198,8 @@ curl -X DELETE http://localhost:8080/campeoes/1
   <summary><b>Captura de tela Swagger UI</b></summary>
   <img src="https://github.com/wanessabrito/api-tft/blob/main/api-tft/src/main/img/Swagger.png" alt="Swagger UI" width="100%">
 </details>
+
+---
 
 ## 📄 Status Codes HTTP
 
@@ -207,6 +211,8 @@ curl -X DELETE http://localhost:8080/campeoes/1
 | **400 Bad Request** | Erro na requisição |
 | **404 Not Found** | Recurso não encontrado |
 | **500 Internal Server Error** | Erro interno do servidor |
+
+---
 
 ## 🚀 Instalação e Execução
 
@@ -226,12 +232,16 @@ cd api-tft
 # Rodar aplicação
 mvn spring-boot:run
 ```
+--- 
+
 ## 🗄️ Acessar H2 Database
 
 - **URL:** [http://localhost:8080/h2-console](http://localhost:8080/h2-console)  
 - **JDBC URL:** `jdbc:h2:mem:campeoesdb`  
 - **Usuário:** `sa`  
-- **Senha:** (em branco)  
+- **Senha:** (em branco)
+
+---
 
 ## 🤝 Contribuindo
 
@@ -249,6 +259,8 @@ mvn spring-boot:run
    git push origin feature/nova-funcionalidade
    ```
 5. Abrir Pull Request
+
+---
 
 ## 📄 Licença
 
