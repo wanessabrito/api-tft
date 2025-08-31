@@ -1,0 +1,4 @@
+com\example\api_tft\model\Campeao.class
+com\example\api_tft\repository\CampeaoRepository.class
+com\example\api_tft\ApiTftApplication.class
+com\example\api_tft\controller\CampeaoController.class
